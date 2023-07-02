@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/daytodaysafaris/static/css/main.4e6e7b7c.css",
-    "main.js": "/daytodaysafaris/static/js/main.b412665c.js",
+    "main.js": "/daytodaysafaris/static/js/main.bee69047.js",
     "static/media/nyungwe.jpg": "/daytodaysafaris/static/media/nyungwe.a371c4ef949b01469e43.jpg",
     "static/media/planning-min.jpg": "/daytodaysafaris/static/media/planning-min.c8958cc32616c912d3ac.jpg",
     "static/media/kidepo.jpg": "/daytodaysafaris/static/media/kidepo.4e458b2b10512bfa1454.jpg",
@@ -24,10 +24,10 @@
     "static/media/dp.png": "/daytodaysafaris/static/media/dp.9c6fc10ba370205875b1.png",
     "index.html": "/daytodaysafaris/index.html",
     "main.4e6e7b7c.css.map": "/daytodaysafaris/static/css/main.4e6e7b7c.css.map",
-    "main.b412665c.js.map": "/daytodaysafaris/static/js/main.b412665c.js.map"
+    "main.bee69047.js.map": "/daytodaysafaris/static/js/main.bee69047.js.map"
   },
   "entrypoints": [
     "static/css/main.4e6e7b7c.css",
-    "static/js/main.b412665c.js"
+    "static/js/main.bee69047.js"
   ]
 }
