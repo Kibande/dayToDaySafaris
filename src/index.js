@@ -1,5 +1,6 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import reportWebVitals from "./reportWebVitals";
 import App from './App';
 import {
   BrowserRouter
@@ -105,13 +106,19 @@ const client = new ApolloClient({
   credentials: 'include',
 });
 
-ReactDOM.render(
-  <BrowserRouter>
+
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+  <React.StrictMode>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
     <ApolloProvider client={client}>
       <CookiesProvider>
       <App/>
     </CookiesProvider>
     </ApolloProvider>
   </BrowserRouter>,
-  document.getElementById('root')
+  </React.StrictMode>
 );
+
+reportWebVitals();
