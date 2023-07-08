@@ -105,13 +105,16 @@ const client = new ApolloClient({
   credentials: 'include',
 });
 
+
 ReactDOM.render(
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
+  <React.StrictMode>
+    <BrowserRouter>
     <ApolloProvider client={client}>
       <CookiesProvider>
       <App/>
     </CookiesProvider>
     </ApolloProvider>
-  </BrowserRouter>,
+    </BrowserRouter>
+  </React.StrictMode>,
   document.getElementById('root')
 );
