@@ -29,6 +29,7 @@ const ChatPopup = (props) => {
         <div className={`chat-popup ${props.chatPopUpExpanded ? 'expanded' : ''}`}>
             <div className="chat-header" onClick={handleToggleExpand}>
 
+                {/* jeje */}
                 <h3>Customer Care</h3>
                 {/* {cookies[CURRENT_USER_COOKIE_NAME]['userSecondName'] && newMessage && <BsBellFill className="notification-dot" />} */}
             </div>
