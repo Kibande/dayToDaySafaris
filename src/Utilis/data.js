@@ -14,7 +14,7 @@ import accomdationPic from '../Assets/pexels-pixabay-258154-min.jpg';
 export const AUTH_TOKEN = 'auth-token';
 export const SERVER_API_ENDPOINT = 'http://localhost:9000/graphql';
 export const SERVER_SUBSCRIPTIONS_ENDPOINT = `ws://localhost:9000/graphql`;
-export const WHATSAPP_CONTACT = "+256751076860"
+export const WHATSAPP_CONTACT = "+256780995336"
 export const CURRENT_USER_COOKIE_NAME = 'current_user';
 
 export const HOMEPAGEINDEX = 0;

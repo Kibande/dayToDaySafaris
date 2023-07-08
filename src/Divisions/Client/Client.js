@@ -1,6 +1,5 @@
-import React, { useCallback, useState } from 'react';
-import { loadFull } from "tsparticles";
-import styled from 'styled-components';
+import React, {useState } from 'react';
+
 
 import BlogPage from './Pages/BlogPage/BlogPage';
 import HomePage from './Pages/HomePage/HomePage';
